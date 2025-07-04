@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global app background */
+body {
+  background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+/* Ensure the root element also has the background */
+#root {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
+}
+
+/* Custom light blue gradient background class */
+.app-background {
+  background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
+}
+
+/* Alternative light blue backgrounds for variety */
+.light-blue-bg {
+  background-color: #dbeafe;
+}
+
+.light-blue-gradient {
+  background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
+}
+
+.light-blue-subtle {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+}

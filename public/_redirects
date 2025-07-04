@@ -1,0 +1,14 @@
+# Handle client-side routing for React Router
+/*    /index.html   200
+
+# Specific routes for better SEO and direct access
+/login    /index.html   200
+/dashboard    /index.html   200
+/job/*    /index.html   200
+/users    /index.html   200
+/reset-password    /index.html   200
+/admin/*    /index.html   200
+/public/*    /index.html   200
+
+# API routes should not be redirected
+/api/*    /api/:splat   200
